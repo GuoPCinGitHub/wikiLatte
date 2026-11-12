@@ -1,0 +1,419 @@
+:root > body.skin-vector,
+:root > body.skin-vector .skin-invert,
+:root > body.skin-vector .notheme {
+	--color-base: #4c4f69;
+	--color-base-fixed: #4c4f69;
+	--color-base--hover: #5c5f77;
+	--color-emphasized: #262937;
+	--color-subtle: #6c6f85;
+	--color-placeholder: #8c8fa1;
+	--color-disabled: #8c8fa1;
+	--color-inverted: #f2f6f9;
+	--color-inverted-fixed: #f2f6f9;
+	--color-progressive: #036992;
+	--color-progressive--hover: #0598d4;
+	--color-progressive--active: #023f57;
+	--color-progressive--focus: #036992;
+	--color-destructive: #d20f39;
+	--color-destructive--hover: #e64553;
+	--color-destructive--active: #73140d;
+	--color-destructive--focus: #036992;
+	--color-visited: #023f57;
+	--color-destructive--visited: #91283f;
+	--color-error: #d20f39;
+	--color-warning: #df8e1d;
+	--color-success: #179299;
+	--color-notice: #4c4f69;
+	--color-content-added: #127177;
+	--color-content-removed: #ad0c2f;
+	--box-shadow-color-base: #2c2e3d;
+	--box-shadow-color-progressive--active: #023f57;
+	--box-shadow-color-progressive--focus: #036992;
+	--box-shadow-color-progressive-selected: #036992;
+	--box-shadow-color-progressive-selected--hover: #0598d4;
+	--box-shadow-color-progressive-selected--active: #023f57;
+	--box-shadow-color-destructive--focus: #036992;
+	--box-shadow-color-inverted: #f2f6f9;
+	--background-color-base: #f2f6f9;
+	--background-color-base-fixed: #f2f6f9;
+	--background-color-neutral: #e6e9ef;
+	--background-color-neutral-subtle: #eff1f5;
+	--background-color-interactive: #e6e9ef;
+	--background-color-interactive-subtle: #eff1f5;
+	--background-color-disabled: #bcc0cc;
+	--background-color-disabled-subtle: #e6e9ef;
+	--background-color-inverted: #262937;
+	--background-color-progressive: #036992;
+	--background-color-progressive--hover: #0598d4;
+	--background-color-progressive--active: #023f57;
+	--background-color-progressive--focus: #036992;
+	--background-color-progressive-subtle: #ecf9fc;
+	--background-color-destructive: #d20f39;
+	--background-color-destructive--hover: #e64553;
+	--background-color-destructive--active: #73140d;
+	--background-color-destructive--focus: #036992;
+	--background-color-destructive-subtle: #fde3e9;
+	--background-color-error: #d20f39;
+	--background-color-error--hover: #e64553;
+	--background-color-error--active: #73140d;
+	--background-color-error-subtle: #fde3e9;
+	--background-color-warning-subtle: #fcf5eb;
+	--background-color-success-subtle: #ecf9fc;
+	--background-color-notice-subtle: #e6e9ef;
+	--background-color-content-added: #baeaf3;
+	--background-color-content-removed: #f6dbb7;
+	--background-color-backdrop-light: rgba(239,241,245,0.65);
+	--background-color-backdrop-dark: rgba(44,46,61,0.65);
+	--background-color-button-quiet--hover: rgba(14,71,81,0.027);
+	--background-color-button-quiet--active: rgba(14,71,81,0.082);
+	--background-color-input-binary--checked: #036992;
+	--background-color-tab-list-item-framed--hover: rgba(239,241,245,0.3);
+	--background-color-tab-list-item-framed--active: rgba(239,241,245,0.65);
+	--border-color-base: #bcc0cc;
+	--border-color-subtle: #ccd0da;
+	--border-color-muted: #dce0e8;
+	--border-color-interactive: #acb0be;
+	--border-color-disabled: #ccd0da;
+	--border-color-inverted: #7c7f93;
+	--border-color-progressive: #036992;
+	--border-color-progressive--hover: #0598D4;
+	--border-color-progressive--active: #023f57;
+	--border-color-progressive--focus: #036992;
+	--border-color-destructive: #d20f39;
+	--border-color-destructive--hover: #e64553;
+	--border-color-destructive--active: #73140d;
+	--border-color-destructive--focus: #036992;
+	--border-color-error: #73140d;
+	--border-color-error--hover: #e64553;
+	--border-color-warning: #885712;
+	--border-color-success: #177383;
+	--border-color-notice: #545874;
+	--border-color-content-added: #baeaf3;
+	--border-color-content-removed: #f6dbb7;
+	--border-color-divider: #bcc0cc;
+	--outline-color-progressive--focus: #036992;
+	--color-base--subtle: #545874;
+	--color-subtle-filter: brightness(0) saturate(100%) invert(31%) sepia(2%) saturate(1860%) hue-rotate(165deg) brightness(101%) contrast(85%);
+	--color-progressive-filter: brightness(0) saturate(100%) invert(18%) sepia(93%) saturate(6054%) hue-rotate(186deg) brightness(91%) contrast(98%);
+	--color-progressive-filter--hover: brightness(0) saturate(100%) invert(40%) sepia(58%) saturate(3028%) hue-rotate(170deg) brightness(97%) contrast(103%);
+	--color-progressive-filter--active: brightness(0) saturate(100%) invert(15%) sepia(71%) saturate(1330%) hue-rotate(167deg) brightness(101%) contrast(98%);
+	--color-success-filter: brightness(0) saturate(100%) invert(58%) sepia(58%) saturate(5822%) hue-rotate(152deg) brightness(86%) contrast(82%);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os > body.skin-vector,
+	html.skin-theme-clientpref-os > body.skin-vector .skin-invert,
+	html.skin-theme-clientpref-os > body.skin-vector .notheme {
+		--color-base: #e6e9ef;
+		--color-base--hover: #eff1f5;
+		--color-emphasized: #eff1f5;
+		--color-subtle: #bcc0cc;
+		--color-inverted: #262937;
+		--color-progressive: #94cbe2;
+		--color-progressive--hover: #c2e2ef;
+		--color-progressive--active: #379ec9;
+		--color-destructive: #f1979e;
+		--color-destructive--hover: #f8cbce;
+		--color-destructive--active: #e32f3d;
+		--color-visited: #379EC9;
+		--color-destructive--visited: #a96150;
+		--color-error: #f1979e;
+		--color-warning: #f3d0a0;
+		--color-success: #96d8f0;
+		--color-notice: #ccd0da;
+		--color-content-added: #b8e5f5;
+		--color-content-removed: #f6babe;
+		--color-base--subtle: #bcc0cc;
+		--box-shadow-color-base: #f2f6f9;
+		--box-shadow-color-progressive--focus: #75bcda;
+		--box-shadow-color-destructive--focus: #75bcda;
+		--box-shadow-color-inverted: #2c2e3d;
+		--background-color-base: #262937;
+		--background-color-neutral: #2e3243;
+		--background-color-neutral-subtle: #4c4f69;
+		--background-color-interactive: #2e3243;
+		--background-color-interactive-subtle: #4c4f69;
+		--background-color-disabled: #65698b;
+		--background-color-disabled-subtle: #464c65;
+		--background-color-inverted: #eff1f5;
+		--background-color-progressive--focus: #75bcda;
+		--background-color-progressive-subtle: #194a5e;
+		--background-color-destructive--focus: #75bcda;
+		--background-color-destructive-subtle: #751002;
+		--background-color-error: #fb3417;
+		--background-color-error--hover: #f1979e;
+		--background-color-error--active: #f8cbce;
+		--background-color-error-subtle: #751002;
+		--background-color-warning-subtle: #3b0801;
+		--background-color-success-subtle: #0c4154;
+		--background-color-notice-subtle: #2e3243;
+		--background-color-content-added: #0e4e65;
+		--background-color-content-removed: #3b0801;
+		--background-color-backdrop-light: rgba(44,46,61,0.65);
+		--background-color-backdrop-dark: rgba(239,241,245,0.65);
+		--border-color-base: #7c7f93;
+		--border-color-subtle: #6c6f85;
+		--border-color-muted: #5c5f77;
+		--border-color-interactive: #4c4f69;
+		--border-color-disabled: #6c6f85;
+		--border-color-inverted: #bcc0cc;
+		--border-color-progressive--focus: #75bcda;
+		--border-color-destructive--focus: #75bcda;
+		--border-color-error: #fb3417;
+		--border-color-error--hover: #f1979e;
+		--border-color-warning: #e69c38;
+		--border-color-success: #40b8e4;
+		--border-color-notice: #c1c6d2;
+		--border-color-content-added: #194a5e;
+		--border-color-content-removed: #955e13;
+		--color-subtle-filter: brightness(0) saturate(100%) invert(82%) sepia(9%) saturate(247%) hue-rotate(187deg) brightness(93%) contrast(89%);
+		--color-progressive-filter: brightness(0) saturate(100%) invert(78%) sepia(40%) saturate(286%) hue-rotate(157deg) brightness(92%) contrast(91%);
+		--color-progressive-filter--hover: brightness(0) saturate(100%) invert(91%) sepia(14%) saturate(590%) hue-rotate(166deg) brightness(97%) contrast(92%);
+		--color-progressive-filter--active: brightness(0) saturate(100%) invert(55%) sepia(60%) saturate(492%) hue-rotate(152deg) brightness(89%) contrast(91%);
+		--color-success-filter: brightness(0) saturate(100%) invert(85%) sepia(7%) saturate(2225%) hue-rotate(163deg) brightness(97%) contrast(93%);
+	}
+}
+
+@media screen {
+	html.skin-theme-clientpref-night > body.skin-vector,
+	html.skin-theme-clientpref-night > body.skin-vector .skin-invert,
+	html.skin-theme-clientpref-night > body.skin-vector .notheme {
+		--color-base: #e6e9ef;
+		--color-base--hover: #eff1f5;
+		--color-emphasized: #eff1f5;
+		--color-subtle: #bcc0cc;
+		--color-inverted: #262937;
+		--color-progressive: #94cbe2;
+		--color-progressive--hover: #c2e2ef;
+		--color-progressive--active: #379ec9;
+		--color-destructive: #f1979e;
+		--color-destructive--hover: #f8cbce;
+		--color-destructive--active: #e32f3d;
+		--color-visited: #379EC9;
+		--color-destructive--visited: #a96150;
+		--color-error: #f1979e;
+		--color-warning: #f3d0a0;
+		--color-success: #96d8f0;
+		--color-notice: #ccd0da;
+		--color-content-added: #b8e5f5;
+		--color-content-removed: #f6babe;
+		--color-base--subtle: #bcc0cc;
+		--box-shadow-color-base: #f2f6f9;
+		--box-shadow-color-progressive--focus: #75bcda;
+		--box-shadow-color-destructive--focus: #75bcda;
+		--box-shadow-color-inverted: #2c2e3d;
+		--background-color-base: #262937;
+		--background-color-neutral: #2e3243;
+		--background-color-neutral-subtle: #4c4f69;
+		--background-color-interactive: #2e3243;
+		--background-color-interactive-subtle: #4c4f69;
+		--background-color-disabled: #65698b;
+		--background-color-disabled-subtle: #464c65;
+		--background-color-inverted: #eff1f5;
+		--background-color-progressive--focus: #75bcda;
+		--background-color-progressive-subtle: #194a5e;
+		--background-color-destructive--focus: #75bcda;
+		--background-color-destructive-subtle: #751002;
+		--background-color-error: #fb3417;
+		--background-color-error--hover: #f1979e;
+		--background-color-error--active: #f8cbce;
+		--background-color-error-subtle: #751002;
+		--background-color-warning-subtle: #3b0801;
+		--background-color-success-subtle: #0c4154;
+		--background-color-notice-subtle: #2e3243;
+		--background-color-content-added: #0e4e65;
+		--background-color-content-removed: #3b0801;
+		--background-color-backdrop-light: rgba(44,46,61,0.65);
+		--background-color-backdrop-dark: rgba(239,241,245,0.65);
+		--border-color-base: #7c7f93;
+		--border-color-subtle: #6c6f85;
+		--border-color-muted: #5c5f77;
+		--border-color-interactive: #4c4f69;
+		--border-color-disabled: #6c6f85;
+		--border-color-inverted: #bcc0cc;
+		--border-color-progressive--focus: #75bcda;
+		--border-color-destructive--focus: #75bcda;
+		--border-color-error: #fb3417;
+		--border-color-error--hover: #f1979e;
+		--border-color-warning: #e69c38;
+		--border-color-success: #40b8e4;
+		--border-color-notice: #c1c6d2;
+		--border-color-content-added: #194a5e;
+		--border-color-content-removed: #955e13;
+		--color-subtle-filter: brightness(0) saturate(100%) invert(82%) sepia(9%) saturate(247%) hue-rotate(187deg) brightness(93%) contrast(89%);
+		--color-progressive-filter: brightness(0) saturate(100%) invert(78%) sepia(40%) saturate(286%) hue-rotate(157deg) brightness(92%) contrast(91%);
+		--color-progressive-filter--hover: brightness(0) saturate(100%) invert(91%) sepia(14%) saturate(590%) hue-rotate(166deg) brightness(97%) contrast(92%);
+		--color-progressive-filter--active: brightness(0) saturate(100%) invert(55%) sepia(60%) saturate(492%) hue-rotate(152deg) brightness(89%) contrast(91%);
+		--color-success-filter: brightness(0) saturate(100%) invert(85%) sepia(7%) saturate(2225%) hue-rotate(163deg) brightness(97%) contrast(93%);
+	}
+}
+
+/* External link icon */
+:root > body.skin-vector .mw-parser-output a.external {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23036992%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+}
+
+:root > body.skin-vector .mw-parser-output a.external:visited {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23023f57%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+}
+
+:root > body.skin-vector .mw-parser-output a.external:visited:hover {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23023f57%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+}
+
+:root > body.skin-vector .mw-parser-output a.external:hover {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%230598d4%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+}
+
+:root > body.skin-vector .mw-parser-output a.external:active {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23023f57%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os > body.skin-vector .mw-parser-output a.external {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%2394cbe2%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+	}
+
+	html.skin-theme-clientpref-os > body.skin-vector .mw-parser-output a.external:visited {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23379ec9%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+	}
+
+	html.skin-theme-clientpref-os > body.skin-vector .mw-parser-output a.external:visited:hover {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23379ec9%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+	}
+
+	html.skin-theme-clientpref-os > body.skin-vector .mw-parser-output a.external:hover {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23c2e2ef%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+	}
+
+	html.skin-theme-clientpref-os > body.skin-vector .mw-parser-output a.external:active {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23379ec9%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+	}
+}
+
+@media screen {
+	html.skin-theme-clientpref-night > body.skin-vector .mw-parser-output a.external {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%2394cbe2%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+	}
+
+	html.skin-theme-clientpref-night > body.skin-vector .mw-parser-output a.external:visited {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23379ec9%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+	}
+
+	html.skin-theme-clientpref-night > body.skin-vector .mw-parser-output a.external:visited:hover {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23379ec9%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+	}
+
+	html.skin-theme-clientpref-night > body.skin-vector .mw-parser-output a.external:hover {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23c2e2ef%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+	}
+
+	html.skin-theme-clientpref-night > body.skin-vector .mw-parser-output a.external:active {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2212%22 height%3D%2212%22 viewBox%3D%220 0 12 12%22%3E%3Ctitle%3E external link %3C%2Ftitle%3E%3Cpath fill%3D%22%23379ec9%22 d%3D%22M6 1h5v5L8.86 3.85 4.7 8 4 7.3l4.15-4.16zM2 3h2v1H2v6h6V8h1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1%22%2F%3E%3C%2Fsvg%3E");
+	}
+}
+
+/* Image link icon */
+:root > body.skin-vector .mw-content-ltr figure[typeof~="mw:File/Thumb"] > .mw-file-description::after,
+:root > body.skin-vector .mw-content-ltr figure[typeof~="mw:File/Thumb"] > .mw-file-magnify::after {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2215%22 height%3D%2211%22 viewBox%3D%220 0 11 15%22%3E%3Cg id%3D%22magnify-clip%22 stroke%3D%22%234c4f69%22 fill%3D%22%23eff1f5%22%3E%3Cpath id%3D%22bigbox%22 d%3D%22M1.509 1.865h10.99v7.919H1.509z%22%2F%3E%3Cpath id%3D%22smallbox%22 d%3D%22M-1.499 6.868h5.943v4.904h-5.943z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+:root > body.skin-vector .mw-content-rtl figure[typeof~="mw:File/Thumb"] > .mw-file-description::after,
+:root > body.skin-vector .mw-content-rtl figure[typeof~="mw:File/Thumb"] > .mw-file-magnify::after {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2215%22 height%3D%2211%22 viewBox%3D%220 0 11 15%22%3E%3Cg id%3D%22magnify-clip%22 fill%3D%22%23eff1f5%22 stroke%3D%22%234c4f69%22%3E%3Cpath id%3D%22bigbox%22 d%3D%22M9.491 1.865h-10.99v7.919h10.99z%22%2F%3E%3Cpath id%3D%22smallbox%22 d%3D%22M12.499 6.868H6.556v4.904h5.943z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	html.skin-theme-clientpref-os > body.skin-vector .mw-content-ltr figure[typeof~="mw:File/Thumb"] > .mw-file-description::after,
+	html.skin-theme-clientpref-os > body.skin-vector .mw-content-ltr figure[typeof~="mw:File/Thumb"] > .mw-file-magnify::after {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2215%22 height%3D%2211%22 viewBox%3D%220 0 11 15%22%3E%3Cg id%3D%22magnify-clip%22 stroke%3D%22%23e6e9ef%22 fill%3D%22%234c4f69%22%3E%3Cpath id%3D%22bigbox%22 d%3D%22M1.509 1.865h10.99v7.919H1.509z%22%2F%3E%3Cpath id%3D%22smallbox%22 d%3D%22M-1.499 6.868h5.943v4.904h-5.943z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+	}
+
+	html.skin-theme-clientpref-os > body.skin-vector .mw-content-rtl figure[typeof~="mw:File/Thumb"] > .mw-file-description::after,
+	html.skin-theme-clientpref-os > body.skin-vector .mw-content-rtl figure[typeof~="mw:File/Thumb"] > .mw-file-magnify::after {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2215%22 height%3D%2211%22 viewBox%3D%220 0 11 15%22%3E%3Cg id%3D%22magnify-clip%22 fill%3D%22%234c4f69%22 stroke%3D%22%23e6e9ef%22%3E%3Cpath id%3D%22bigbox%22 d%3D%22M9.491 1.865h-10.99v7.919h10.99z%22%2F%3E%3Cpath id%3D%22smallbox%22 d%3D%22M12.499 6.868H6.556v4.904h5.943z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+	}
+}
+
+@media screen {
+	html.skin-theme-clientpref-night > body.skin-vector .mw-content-ltr figure[typeof~="mw:File/Thumb"] > .mw-file-description::after,
+	html.skin-theme-clientpref-night > body.skin-vector .mw-content-ltr figure[typeof~="mw:File/Thumb"] > .mw-file-magnify::after {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2215%22 height%3D%2211%22 viewBox%3D%220 0 11 15%22%3E%3Cg id%3D%22magnify-clip%22 stroke%3D%22%23e6e9ef%22 fill%3D%22%234c4f69%22%3E%3Cpath id%3D%22bigbox%22 d%3D%22M1.509 1.865h10.99v7.919H1.509z%22%2F%3E%3Cpath id%3D%22smallbox%22 d%3D%22M-1.499 6.868h5.943v4.904h-5.943z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+	}
+
+	html.skin-theme-clientpref-night > body.skin-vector .mw-content-rtl figure[typeof~="mw:File/Thumb"] > .mw-file-description::after,
+	html.skin-theme-clientpref-night > body.skin-vector .mw-content-rtl figure[typeof~="mw:File/Thumb"] > .mw-file-magnify::after {
+		background-image: url("data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width%3D%2215%22 height%3D%2211%22 viewBox%3D%220 0 11 15%22%3E%3Cg id%3D%22magnify-clip%22 fill%3D%22%234c4f69%22 stroke%3D%22%23e6e9ef%22%3E%3Cpath id%3D%22bigbox%22 d%3D%22M9.491 1.865h-10.99v7.919h10.99z%22%2F%3E%3Cpath id%3D%22smallbox%22 d%3D%22M12.499 6.868H6.556v4.904h5.943z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+	}
+}
+
+/* Other */
+body.skin-vector .mw-logo-wordmark[src$="MoegirlPedia-Title-green.svg"] {
+	filter: hue-rotate(62deg) saturate(52%) brightness(106%);
+}
+
+body.skin-vector .mw-echo-ui-notificationItemWidget:hover {
+	background-color: var(--background-color-interactive-subtle);
+}
+
+body.skin-vector .mw-echo-ui-notificationItemWidget-icon img[src$="progressive.svg"] {
+	filter: var(--color-progressive-filter);
+}
+
+body.skin-vector .mw-echo-ui-notificationItemWidget-icon img[src$="revert.svg"] {
+	filter: var(--color-subtle-filter);
+}
+
+body.skin-vector .mw-echo-ui-notificationItemWidget-icon img[src*="userTalk-constructive"] {
+	filter: var(--color-success-filter);
+}
+
+body.skin-vector .mw-echo-ui-toggleReadCircleButtonWidget:hover .mw-echo-ui-toggleReadCircleButtonWidget-circle {
+	background-color: var(--color-progressive--hover);
+}
+
+body.skin-vector .mod-status-tag.status-pending,
+body.skin-vector .mod-status-icon.status-pending,
+body.skin-vector .mod-status-tag.status-0,
+body.skin-vector .mod-status-icon.status-0 {
+	background: var(--color-progressive);
+}
+
+body.skin-vector .mod-status-tag.status-approved,
+body.skin-vector .mod-status-icon.status-approved,
+body.skin-vector .mod-status-tag.status-1,
+body.skin-vector .mod-status-icon.status-1 {
+	background: var(--color-success);
+}
+
+body.skin-vector .mod-status-tag.status-rejected,
+body.skin-vector .mod-status-icon.status-rejected,
+body.skin-vector .mod-status-tag.status-2,
+body.skin-vector .mod-status-icon.status-2 {
+	background: var(--color-error);
+}
+
+body.skin-vector .mod-status-tag.status-unsure,
+body.skin-vector .mod-status-icon.status-unsure,
+body.skin-vector .mod-status-tag.status-3,
+body.skin-vector .mod-status-icon.status-3 {
+	background: var(--color-warning);
+}
+
+body.skin-vector .mod-status-tag.status-skipped,
+body.skin-vector .mod-status-icon.status-skipped,
+body.skin-vector .mod-status-tag.status-4,
+body.skin-vector .mod-status-icon.status-4 {
+	background: var(--background-color-neutral);
+	color: var(--color-notice);
+}
+
+body.skin-vector .mod-status-tag.status-latest-approved,
+body.skin-vector .mod-status-icon.status-latest-approved {
+	background: var(--color-warning) !important;
+}
+
+body.skin-vector .oo-ui-image-progressive {
+	filter: var(--color-progressive-filter);
+}
