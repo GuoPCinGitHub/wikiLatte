@@ -5,7 +5,7 @@
 &nbsp;
 
 <p align="center">
-  wikiLatte 是基于 <a href="https://catppuccin.com/">Catppuccin Theme</a> 中的 Latte 调色风格制作的一款用于 Vector (2022) / MoeSkin 皮肤的主题包。
+  wikiLatte 是基于 <a href="https://catppuccin.com/">Catppuccin Theme</a> 中的 Latte 调色风格制作的一款用于 <a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Skin:Vector/2022">Vector (2022)</a> / <a href="https://zh.moegirl.org.cn/Project:MoeSkin">MoeSkin</a> 皮肤的主题包。
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 &nbsp;
 
 <p align="center">
-  wikiLatte is a theme for Vector (2022) / MoeSkin based on Latte flavor in <a href="https://catppuccin.com/">Catppuccin Theme</a>.
+  wikiLatte is a theme for <a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Skin:Vector/2022">Vector (2022)</a> / <a href="https://zh.moegirl.org.cn/Project:MoeSkin">MoeSkin</a> based on Latte flavor in <a href="https://catppuccin.com/">Catppuccin Theme</a>.
 </p>
 
 <p align="center">
