@@ -1,11 +1,11 @@
 <h3 align="center">
-  <img src="MoeLatte-zh-cn.png" alt="MoeLatte" style="width: 580px; max-width: 100%;"/>
+  <img src="wikiLatte-zh-cn.png" alt="wikkLatte" style="width: 580px; max-width: 100%;"/>
 </h3>
 
 &nbsp;
 
 <p align="center">
-  MoeLatte 是基于 <a href="https://catppuccin.com/">Catppuccin Theme</a> 中的 Latte 调色风格制作的一款用于 MoeSkin 皮肤的主题包。
+  wikiLatte 是基于 <a href="https://catppuccin.com/">Catppuccin Theme</a> 中的 Latte 调色风格制作的一款用于 Vector (2022) / MoeSkin 皮肤的主题包。
 </p>
 
 <p align="center">
@@ -15,13 +15,13 @@
 &nbsp;
 
 <p align="center">
-  <img src="MoeLatteColorBlocks.png" alt="MoeLatte" style="width: 200px; max-width: 100%;"/>
+  <img src="wikiLatteColorBlocks.png" alt="wikiLatte" style="width: 200px; max-width: 100%;"/>
 </p>
 
 &nbsp;
 
 <p align="center">
-  MoeLatte is a theme for MoeSkin based on Latte flavor in <a href="https://catppuccin.com/">Catppuccin Theme</a>.
+  wikiLatte is a theme for Vector (2022) / MoeSkin based on Latte flavor in <a href="https://catppuccin.com/">Catppuccin Theme</a>.
 </p>
 
 <p align="center">
@@ -31,5 +31,5 @@
 &nbsp;
 
 <p align="center">
-  <img src="MoeLatteColorBlocks.png" alt="MoeLatte" style="width: 200px; max-width: 100%;"/>
+  <img src="wikiLatteColorBlocks.png" alt="wikiLatte" style="width: 200px; max-width: 100%;"/>
 </p>
